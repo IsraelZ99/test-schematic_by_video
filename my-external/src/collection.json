@@ -1,0 +1,14 @@
+{
+    "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+    "schematics": {
+        "my-external": {
+            "description": "A blank schematic.",
+            "factory": "./my-external/index#myExternal"
+        },
+        "create-file": {
+            "description": "A blank schematic.",
+            "factory": "./my-external/index#myExternal",
+            "schema": "./my-external/schema.json"
+        }
+    }
+}
